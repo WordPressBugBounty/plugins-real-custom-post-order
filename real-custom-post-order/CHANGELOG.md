@@ -3,6 +3,79 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.95 (2024-09-26)
+
+**Note:** This package (@devowl-wp/real-custom-post-order) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Dependency updates @devowl-wp/utils 1.19.11</summary>
+
+
+**_Purpose of dependency:_** _Utility functionality for all your WordPress plugins._
+##### Maintenance
+
+* remove referer workaround for Strato servers (CU-86954236z)</details>
+
+<details><summary>Development dependency update @devowl-wp/continuous-integration 0.6.5</summary>
+
+
+**_Purpose of dependency:_** _DevOps macros, job templates and jobs for Gitlab CI and @devowl-wp/node-gitlab-ci._
+##### Bug Fixes
+
+* provide APP_NAME and APP_VERSION in backend environment (CU-8695emete)
+* restore production database dump app-versionized (CU-8695emete)</details>
+
+<details><summary>Development dependency update @devowl-wp/continuous-localization 0.8.8</summary>
+
+
+**_Purpose of dependency:_** _Provide a CLI to push and pull localization files from different translation management systems._
+##### Bug Fixes
+
+* retry 5 times when component is locked (CU-8695kguk7)</details>
+
+<details><summary>Development dependency update @devowl-wp/monorepo-utils 0.2.5</summary>
+
+
+**_Purpose of dependency:_** _Predefined monorepo utilities and tasks._
+##### Continuous Integration
+
+* make public changelog generation work again with latest Taskfile version (CU-8695kgrpr)
+
+
+##### Maintenance
+
+* update retypeapp (CU-8695kgrpr)</details>
+
+
+
+
+
+## 1.3.94 (2024-08-28) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-custom-post-order) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Development dependency update @devowl-wp/api 0.5.25</summary>
+
+
+**_Purpose of dependency:_** _Shared typings for all Node.js backends and frontends._
+##### Bug Fixes
+
+* apply new eslint rules (CU-861n9jg7k)
+* introduce translation flag statistics and entity display (CU-861n9jg7k)
+* introduce translation flags for translatable strings (CU-8693travj)
+
+
+##### Code Refactoring
+
+* reordering vars (CU-861n9jg7k)</details>
+
+
+
+
+
 ## 1.3.93 (2024-08-08)
 
 
