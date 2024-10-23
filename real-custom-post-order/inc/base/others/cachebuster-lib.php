@@ -1,5 +1,5 @@
 <?php
-// Cachebusters generated on 2024-09-26 07:16:33
+// Cachebusters generated on 2024-10-23 10:29:51
 return [
 	'core-js' => '3.37.1',
 	'jquery' => '3.7.1',
