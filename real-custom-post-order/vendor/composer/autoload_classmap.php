@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'DevOwl\\RealCustomPostOrder\\Vendor\\Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'DevOwl\\RealCustomPostOrder\\Activator' => $baseDir . '/inc/Activator.php',
     'DevOwl\\RealCustomPostOrder\\AdInitiator' => $baseDir . '/inc/AdInitiator.php',
     'DevOwl\\RealCustomPostOrder\\Assets' => $baseDir . '/inc/Assets.php',

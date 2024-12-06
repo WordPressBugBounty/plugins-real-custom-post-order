@@ -47,7 +47,7 @@ class ComposerStaticInitf2dec36cbd9520392301ae6fd3971f01
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'DevOwl\\RealCustomPostOrder\\Vendor\\Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DevOwl\\RealCustomPostOrder\\Activator' => __DIR__ . '/../..' . '/inc/Activator.php',
         'DevOwl\\RealCustomPostOrder\\AdInitiator' => __DIR__ . '/../..' . '/inc/AdInitiator.php',
         'DevOwl\\RealCustomPostOrder\\Assets' => __DIR__ . '/../..' . '/inc/Assets.php',

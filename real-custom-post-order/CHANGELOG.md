@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.98 (2024-12-06)
+
+
+### Maintenance
+
+* remove version from docker-compose files as this is no longer needed (CU-8696k3cct)
+
+
+### Performance Improvements
+
+* allow profiling PHPUnit tests via webgrind (CU-8696qqa89)
+
+
+<details><summary>Dependency updates @devowl-wp/real-utils 1.13.14</summary>
+
+
+**_Purpose of dependency:_** _Create cross-selling ads, about page, rating and newsletter input for WP Real plugins._
+##### Performance Improvements
+
+* allow profiling PHPUnit tests via webgrind (CU-8696qqa89)</details>
+
+<details><summary>Dependency updates @devowl-wp/utils 1.19.14</summary>
+
+
+**_Purpose of dependency:_** _Utility functionality for all your WordPress plugins._
+##### Build System
+
+* cannot declare class InstalledVersions for composer (CU-8696ru88g)
+
+
+##### Performance Improvements
+
+* allow profiling PHPUnit tests via webgrind (CU-8696qqa89)</details>
+
+<details><summary>Development dependency update @devowl-wp/phpunit-config 0.1.15</summary>
+
+
+**_Purpose of dependency:_** _Predefined functionalities for PHPUnit._
+##### Performance Improvements
+
+* allow profiling PHPUnit tests via webgrind (CU-8696qqa89)</details>
+
+
+
+
+
 ## 1.3.97 (2024-11-07)
 
 
