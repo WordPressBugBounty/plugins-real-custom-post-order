@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.99 (2025-01-14)
+
+
+### Bug Fixes
+
+* set default api documentation version to 1.0.0 to improve UX on api docs (CU-869727naj)
+
+
+<details><summary>Development dependency update @devowl-wp/continuous-localization 0.8.10</summary>
+
+
+**_Purpose of dependency:_** _Provide a CLI to push and pull localization files from different translation management systems._
+##### Bug Fixes
+
+* ensure to retry on locked component after 2,5 minutes (CU-8695kguk7)</details>
+
+
+
+
+
 ## 1.3.98 (2024-12-06)
 
 
