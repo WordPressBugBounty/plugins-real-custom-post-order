@@ -1,10 +1,10 @@
 === Real Custom Post Order: Create a custom order for your content ===
 Contributors: devowl, mguenter, jankarres
 Tags: custom post order, custom page order, custom post type order, custom product order, custom taxonomy order, woocommerce product order, post order, page order, category order, sort, posts, sort pages, sort custom posts, simple custom post order, intuitive custom post order, real-custom-post-order
-Stable tag: 1.3.100
+Stable tag: 1.3.109
 Requires at least: 5.9
 Requires PHP: 7.4.0
-Tested up to: 6.7
+Tested up to: 6.8
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
