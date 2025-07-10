@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.117 (2025-07-10)
+
+**Note:** This package (@devowl-wp/real-custom-post-order) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Dependency updates @devowl-wp/utils 1.19.32</summary>
+
+
+**_Purpose of dependency:_** _Utility functionality for all your WordPress plugins._
+##### Bug Fixes
+
+* warning is_readable(): open_basedir restriction in effect (CU-8699fqkav)</details>
+
+
+
+
+
 ## 1.3.116 (2025-07-10)
 
 
