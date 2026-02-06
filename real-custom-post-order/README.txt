@@ -1,10 +1,10 @@
 === Real Custom Post Order: Create a custom order for your content ===
 Contributors: devowl, mguenter, jankarres
 Tags: custom post order, custom page order, custom post type order, custom product order, custom taxonomy order, woocommerce product order, post order, page order, category order, sort, posts, sort pages, sort custom posts, simple custom post order, intuitive custom post order, real-custom-post-order
-Stable tag: 1.3.117
+Stable tag: 1.3.130
 Requires at least: 5.9
 Requires PHP: 7.4.0
-Tested up to: 6.8
+Tested up to: 6.9
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -78,6 +78,20 @@ You can create a custom order for the following post types:
 = Can I sort my taxonomies, e.g. list of categories for posts, too? =
 
 No, we only support the reordering of post types and not taxonomies. If you need even more structure because you have hundreds of categories, our plugin [Real Category Management](https://devowl.io/go/real-category-management?source=wordpress-org&plugin=real-custom-post-order) might be the solution for you. It structures your content into folders and gives you the possibility to arrange the folders.
+
+= Inspection of plugin source files =
+
+Most plugin files (PHP, templates, assets) are in the ZIP in human-friendly, unprocessed form (soure files).
+
+The plugin’s JavaScript/TypeScript is bundled (e.g. by Webpack) from plugin-specific packages and third-party open source to produce build files. Each build ends with `//# sourceMappingURL=…` to source maps with the original, human-readable code; these maps are public and the included source code can be inspected by anyone directly in your browser, if you have installed the plugin.
+
+To conveniently view the complete codebase of the consumed script in e.g. Chromium/Google Chrome, open *⋮ > More tools > Developer tools > ⋮ (in DevTools) > Settings > Preferences > Sources* and enable "JavaScript source maps", "CSS source maps", and "Allow DevTools to load resources, such as source maps, from remote file paths". Reload, then open *DevTools > Sources > "devowl-local-files"* to inspect all readable sources.
+
+Source maps are hosted outside the ZIP to keep size manageable; otherwise the plugin could exceed limits of web hosts and become non-installable.
+
+The repository with all source files can be do be inspected by anyone at [assets.devowl.io/wordpress-plugins-source-code.zip](https://assets.devowl.io/wordpress-plugins-source-code.zip). Please check out the `README.md` in the repository to learn how to get started!
+
+For details on the data procession of our servers, please read [devowl.io/privacy-policy](https://devowl.io/privacy-policy/).
 
 == Screenshots ==
 
