@@ -1,7 +1,6 @@
 <?php
-// Cachebusters generated on 2025-12-02 07:02:11
+// Cachebusters generated on 2026-03-26 11:02:25
 return [
-	'core-js' => '3.37.1',
 	'jquery' => '3.7.1',
 	'mobx' => '4.15.7',
 	'mobx-react' => '6.3.1',

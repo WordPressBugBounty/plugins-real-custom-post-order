@@ -12,7 +12,7 @@ class ComposerStaticInitf2dec36cbd9520392301ae6fd3971f01
     );
 
     public static $prefixLengthsPsr4 = array (
-        'D' => 
+        'D' =>
         array (
             'DevOwl\\RealCustomPostOrder\\Vendor\\MatthiasWeb\\WpdbBatch\\' => 56,
             'DevOwl\\RealCustomPostOrder\\Vendor\\MatthiasWeb\\Utils\\' => 52,
@@ -23,23 +23,23 @@ class ComposerStaticInitf2dec36cbd9520392301ae6fd3971f01
     );
 
     public static $prefixDirsPsr4 = array (
-        'DevOwl\\RealCustomPostOrder\\Vendor\\MatthiasWeb\\WpdbBatch\\' => 
+        'DevOwl\\RealCustomPostOrder\\Vendor\\MatthiasWeb\\WpdbBatch\\' =>
         array (
             0 => __DIR__ . '/..' . '/matthiasweb/wpdb-batch/src',
         ),
-        'DevOwl\\RealCustomPostOrder\\Vendor\\MatthiasWeb\\Utils\\' => 
+        'DevOwl\\RealCustomPostOrder\\Vendor\\MatthiasWeb\\Utils\\' =>
         array (
             0 => __DIR__ . '/..' . '/devowl-wp/utils/src',
         ),
-        'DevOwl\\RealCustomPostOrder\\Vendor\\DevOwl\\RealUtils\\' => 
+        'DevOwl\\RealCustomPostOrder\\Vendor\\DevOwl\\RealUtils\\' =>
         array (
             0 => __DIR__ . '/..' . '/devowl-wp/real-utils/src',
         ),
-        'DevOwl\\RealCustomPostOrder\\Vendor\\ColinODell\\Json5\\' => 
+        'DevOwl\\RealCustomPostOrder\\Vendor\\ColinODell\\Json5\\' =>
         array (
             0 => __DIR__ . '/..' . '/colinodell/json5/src',
         ),
-        'DevOwl\\RealCustomPostOrder\\' => 
+        'DevOwl\\RealCustomPostOrder\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc',
             1 => __DIR__ . '/../..' . '/src/inc',
