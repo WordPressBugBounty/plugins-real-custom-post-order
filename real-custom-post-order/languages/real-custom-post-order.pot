@@ -1,5 +1,5 @@
 # Copyright (C) 2026 devowl.io
-# This file is distributed under the same license as the Real Custom Post Order plugin.
+# This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: n/a\n"
@@ -42,11 +42,11 @@ msgstr ""
 msgid "A custom order of posts - whether it's a post order, a custom page order, a custom product order, or a custom post type order - can help you organize your content in a more intuitive way that helps you find your content more simply and quickly."
 msgstr ""
 
-#: inc/sortable/AbstractSortable.php:50
+#: inc/sortable/AbstractSortable.php:52
 msgid "Sequence array not valid."
 msgstr ""
 
-#: inc/sortable/AbstractSortable.php:55
+#: inc/sortable/AbstractSortable.php:60
 msgid "Sequence value not a number."
 msgstr ""
 

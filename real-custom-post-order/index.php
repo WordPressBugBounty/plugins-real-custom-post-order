@@ -8,9 +8,11 @@
  * Description:     Custom post order for posts, pages, WooCommerce products and custom post types using drag and drop. Simple and intuitive sorting of your content!
  * Author:          devowl.io
  * Author URI:      https://devowl.io
- * Version:                                                                                                          1.3.141
+ * Version:                                                                                                             1.3.144
  * Text Domain:     real-custom-post-order
  * Domain Path:     /languages
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
  */
 
 defined('ABSPATH') or die('No script kiddies please!'); // Avoid direct file request

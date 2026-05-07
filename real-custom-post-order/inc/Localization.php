@@ -26,9 +26,9 @@ class Localization
     protected function getPackageInfo($type)
     {
         if ($type === Constants::LOCALIZATION_BACKEND) {
-            return [RCPO_PATH . '/languages', RCPO_TD];
+            return [RCPO_PATH . '/languages', 'real-custom-post-order'];
         } else {
-            return [RCPO_PATH . '/' . Constants::LOCALIZATION_PUBLIC_JSON_I18N, RCPO_TD];
+            return [RCPO_PATH . '/' . Constants::LOCALIZATION_PUBLIC_JSON_I18N, 'real-custom-post-order'];
         }
     }
 }

@@ -49,6 +49,6 @@ class AdInitiator extends AbstractInitiator
      */
     public function getKeyFeatures()
     {
-        return [['image' => $this->getAssetsUrl('feature-move.gif'), 'title' => \__('Drag & Drop your posts and pages', RCPO_TD), 'description' => \__("A custom order of posts - whether it's a post order, a custom page order, a custom product order, or a custom post type order - can help you organize your content in a more intuitive way that helps you find your content more simply and quickly.", RCPO_TD)]];
+        return [['image' => $this->getAssetsUrl('feature-move.gif'), 'title' => \__('Drag & Drop your posts and pages', 'real-custom-post-order'), 'description' => \__("A custom order of posts - whether it's a post order, a custom page order, a custom product order, or a custom post type order - can help you organize your content in a more intuitive way that helps you find your content more simply and quickly.", 'real-custom-post-order')]];
     }
 }

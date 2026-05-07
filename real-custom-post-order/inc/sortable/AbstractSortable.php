@@ -47,11 +47,11 @@ abstract class AbstractSortable
     public function doUpdateByIntSequence($sequence)
     {
         if (!\is_array($sequence)) {
-            return new WP_Error('rcpo_update_sequence_error', \__('Sequence array not valid.', RCPO_TD));
+            return new WP_Error('rcpo_update_sequence_error', \__('Sequence array not valid.', 'real-custom-post-order'));
         }
         foreach ($sequence as $key => $value) {
             if (!\is_numeric($value)) {
-                return new WP_Error('rcpo_update_sequence_error', \__('Sequence value not a number.', RCPO_TD));
+                return new WP_Error('rcpo_update_sequence_error', \__('Sequence value not a number.', 'real-custom-post-order'));
             }
             $sequence[$key] = \intval($value);
         }

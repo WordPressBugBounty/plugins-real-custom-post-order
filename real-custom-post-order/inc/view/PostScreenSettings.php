@@ -35,8 +35,8 @@ class PostScreenSettings
             $post_type = \get_query_var('post_type', 'post');
             $option = self::getOptionName($post_type);
             $settings .= '<fieldset class="metabox-prefs">
-        		<legend>' . \__('Custom order for this list table', RCPO_TD) . '</legend>
-        		<label><input class="hide-column-tog" name="' . $option . '" type="checkbox" id="' . $option . '" value="1" ' . \checked(self::isActive($post_type), 1, \false) . '>' . \__('Enabled', RCPO_TD) . '</label>
+        		<legend>' . \__('Custom order for this list table', 'real-custom-post-order') . '</legend>
+        		<label><input class="hide-column-tog" name="' . $option . '" type="checkbox" id="' . $option . '" value="1" ' . \checked(self::isActive($post_type), 1, \false) . '>' . \__('Enabled', 'real-custom-post-order') . '</label>
     		</fieldset>';
         }
         return $settings;
@@ -51,9 +51,11 @@ class PostScreenSettings
     public function check_admin_referer($action, $result)
     {
         if (\current_user_can('manage_options') && $action === 'screen-options-nonce' && $result) {
-            $post_type = \get_query_var('post_type', isset($_GET['post_type']) ? \sanitize_text_field($_GET['post_type']) : 'post');
+            $post_type = \get_query_var('post_type', isset($_GET['post_type']) ? \sanitize_text_field(\wp_unslash($_GET['post_type'])) : 'post');
             $option = self::getOptionName($post_type);
-            \update_option($option, isset($_POST[$option]) && \boolval($_POST[$option]) ? '1' : '0');
+            // phpcs:disable WordPress.Security.NonceVerification.Missing -- nonce verified upstream via screen-options-nonce ($result).
+            \update_option($option, isset($_POST[$option]) && \filter_var(\wp_unslash($_POST[$option]), \FILTER_VALIDATE_BOOLEAN) ? '1' : '0');
+            // phpcs:enable
         }
     }
     /**
