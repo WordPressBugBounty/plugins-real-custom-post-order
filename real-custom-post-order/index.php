@@ -8,7 +8,7 @@
  * Description:     Custom post order for posts, pages, WooCommerce products and custom post types using drag and drop. Simple and intuitive sorting of your content!
  * Author:          devowl.io
  * Author URI:      https://devowl.io
- * Version:                                                                                                                   1.3.150
+ * Version:                                                                                                                        1.4.0
  * Text Domain:     real-custom-post-order
  * Domain Path:     /languages
  * License: GPLv2 or later
@@ -30,7 +30,7 @@ define('RCPO_ROOT_SLUG', 'devowl-wp');
 define('RCPO_SLUG', basename(RCPO_PATH));
 define('RCPO_INC', RCPO_PATH . '/inc/');
 define('RCPO_MIN_PHP', '7.4.0');
-define('RCPO_MIN_WP', '5.9.0');
+define('RCPO_MIN_WP', '6.1.0');
 define('RCPO_NS', 'DevOwl\\RealCustomPostOrder');
 define('RCPO_DB_PREFIX', 'rcpo'); // The table name prefix wp_{prefix}
 define('RCPO_OPT_PREFIX', 'rcpo'); // The option name prefix in wp_options
