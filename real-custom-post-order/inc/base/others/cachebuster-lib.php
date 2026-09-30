@@ -1,5 +1,5 @@
 <?php
-// Cachebusters generated on 2026-08-18 12:15:29
+// Cachebusters generated on 2026-09-29 15:29:53
 return [
 	'jquery' => '3.7.1',
 	'mobx' => '6.12.4',

@@ -34,7 +34,7 @@ Copyright (c) 2017-2019 Colin O'Dell <colinodell@gmail.com>. Based on https://gi
 Create cross-selling ads, about page, rating and newsletter input for WP Real plugins.
 Homepage: Not configured.
 Licenses Used: GPL-3.0-or-later
-Create cross-selling ads, about page, rating and newsletter input for WP Real plugins.
+Create about page, rating and newsletter input for WP Real plugins.
 Copyright (C) 2020 devowl.io GmbH
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
